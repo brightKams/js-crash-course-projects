@@ -1,0 +1,107 @@
+* {
+    padding:  0;
+    margin:  0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+html {
+    
+    font-size: 1rem;
+
+}
+
+body {
+    height: 100vh;
+    background: bisque;
+    display: flex;
+}
+
+
+.main {
+    width: clamp(300px, 5vw, 70%);
+    min-height: 200px;
+    background-color: teal;
+    border: 1px solid transparent;
+    margin: auto;
+    /* padding: 2%; */
+    display: flex;
+    flex-flow: column wrap;
+    place-items: center;
+    place-content: center;
+    border-radius: 3px;
+    
+}
+
+span {
+    color: #f4f4f4;
+}
+
+.input-text-el {
+    border-bottom: 1px solid ;
+    margin-bottom: 10px;
+    display: inline-block;
+    min-width: 15px;
+    text-align: center;
+}
+
+.operation-els {
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    width: 80px;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px 5px auto 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px grey ;
+}
+button:focus-within {
+    animation:  buttonEffect 1s forwards;
+}
+
+@keyframes buttonEffect {
+    0% {
+        padding: 10px;
+    }
+
+    100% {
+        padding: 8px;
+    }
+}
+
+
+
+.add-el {
+    background: green;
+    color: #f4f4f4;
+
+}
+
+.subtract-el {
+    background-color: burlywood;
+    color: red;
+}
+.divide-el {
+    background-color: green;
+    color: #f4f4f4;
+}
+.multiply-el {
+    background-color: burlywood;
+    color: red;
+}
+
+
+.sum-paragraph-el {
+    font-weight: 700;
+    color: aqua;
+    
+}
+
+
+

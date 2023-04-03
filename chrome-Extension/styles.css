@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-width: 300px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.input-el {
+    /* display: block; */
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: 1px solid grey;
+    
+}
+.input-el:focus {
+    background-color: rgb(209, 209, 240);
+    
+}
+
+button {
+    background-color: #5f9341;
+    color: #f4f4ff;
+    margin: 5px auto;
+    border: transparent;
+    outline: none;
+    padding: 7px 15px;
+    font-weight: bold;
+    width: 120px;
+    border: 1px solid #5f9341;
+
+}
+
+.delete-btn-el {
+    background-color: #fff;
+    color: #5f9341;
+}
+
+
+.box {
+    background-color: seagreen;
+    height: 120px;
+    width: 100%;
+    margin: 20px 0;
+    color: #f4f4f4;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    position: relative;
+
+}
+ul {
+    list-style: none;
+    margin-top: 15px;
+    border: 2px solid #5f9341;
+    padding: 0 5px 15px;
+
+}
+
+ul li {
+    list-style-position: inside;
+    margin-top: 8px;
+}
+
+ul a:any-link {
+    color: #5f9341;
+}
+
+.data-btn {
+    min-height: 40px;
+}
+
+.brooklyn-agency {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.team-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    /* padding: 10px; */
+}

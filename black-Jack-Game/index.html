@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="blackJackGame.js" defer></script>
+    <!-- <script src="blackJackTest.js" defer></script> -->
+    <title>BLACK JACK GAME</title>
+</head>
+<body>
+
+    <main class="main">
+
+        <!-- || BLACK JACK GAMING CONTAINER -->
+
+        <div class="game-container-el" id="game-container-el">
+            <h1 class="black-jack-heading" id="black-jack-heading">BlackJack</h1>
+
+        <h2 class="blackjack-message" id="black-jack-message-el">Want to Play a Game!</h2>
+
+        <div class="cards-and-sum" id="cards-and-sum-el">
+            <p class="cards-el" id="cards-el">
+                Cards: 
+            </p>
+
+            <br>
+
+            <p class="sum-el" id="sum-el">
+                Sum:
+            </p>
+        </div>
+
+        <div class="control-btns" id="control-btns">
+            <button class="startGame" id="start-game-btn" onclick="startGame(); this.onclick=null;">START GAME</button>
+            <button class="new-card" id="new-card-btn" onclick="newCard()" >NEW CARD</button>
+            <button class="end-game" id="end-game-btn" onclick="endGame()">END GAME</button>
+            <button class="clear-card" id="clear-card-btn" onclick="clearCard(); this.onclick=null;">CLEAR CARD</button>
+            <button class="allClear-card" id="allClear-card-btn" onclick="allClearCard()">CLEAR GAME(S)</button>
+        </div>
+
+        <p class="cost-chips-el" id="cost-chips-el">
+            Per: $200
+        </p>
+        </div>
+        
+
+        <div class="card-image-el" id="card-image-el">
+            <img class="start-card" src="assets/images/blackJackGame/blackJack1.png" alt="blackJack1" width="67" height="128">
+            <!-- <img src="assets/images/blackJackGame/blackJack2.jpg" alt="blackJack2" width="67" height="128">
+            <img src="assets/images/blackJackGame/blackJack3.png" alt="blackJack3" width="67" height="128">
+            <img src="assets/images/blackJackGame/blackJack4.jpg" alt="blackJack4" width="67" height="128">
+            <img src="assets/images/blackJackGame/blackJack5.png" alt="blackJack5" width="67" height="128">
+            <img src="assets/images/blackJackGame/blackJack6.png" alt="blackJack6" width="67" height="128">
+            <img src="assets/images/blackJackGame/blackJack7.jpg" alt="blackJack7" width="67" height="128">
+            <img src="assets/images/blackJackGame/blackJack8.jpg" alt="blackJack8" width="67" height="128"> -->
+
+        </div>
+        
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="index.js" defer></script>
+    <title>CALCULATOR CHALLENGE</title>
+</head>
+<body>
+
+    <main class="main" id="main-el">
+        <div class="input-text-container">
+            <span class="input-text-el" id="input-text-el1"> </span>
+            <span class="input-text-el" id="input-text-el2"> </span>
+        </div>
+
+
+        <div class="operation-els">
+            <button class="add-el" id="add-el" onclick="add()">ADD</button>
+            <button class="subtract-el" id="subtract-el" onclick="subtract()">SUBTRACT</button>
+            <button class="divide-el" id="divide-el" onclick="divide()">DIVIDE</button>
+            <button class="multiply-el" id="multiply-el" onclick="multiply()">MULTIPLY</button>
+            <br>
+            <button class="clear-calc-el" id="clear-calc-el" onclick="clearCalc()">CLEAR</button>
+            <button class="reload-calc-el" id="reload-calc-el" onclick="reloadCalc()">RELOAD</button>
+        </div>
+
+        <div class="sum-el" id="sum-el">
+            <p class="sum-paragraph-el" id="sum-paragraph-el">
+                Sum:
+            </p>
+        </div>
+    </main>
+    
+</body>
+</html>

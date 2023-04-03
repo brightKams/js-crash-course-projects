@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* || VARIABLES */
+
+:root {
+    /* ||fonts */
+    --FS: clamp(0.8rem, 5vw, 0.9rem)
+}
+
+html {
+    font-family:"arial" ;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100vh;
+}
+
+
+main  {
+
+    width: min(300px, 80%);
+    min-height: 100px;
+    background: url(./assets/images/OHAKAM-BRIGHT-Picture.jpg) center top no-repeat;
+    background-size: cover;
+    border: 3px solid grey;
+    box-shadow: 0 0 0 1px grey;
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-text h2 {
+    font-size: clamp(1rem, 5vw, 1.5rem);
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: min(150px, 80%);
+    margin: 1rem auto;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.increment, .saveCount, .clearCount {
+    background-color: bisque;
+    font-weight: 700;
+}
+.saveCount {
+    background-color: blue;
+    color: #f4f4f4;
+    border: 1px solid grey;
+}
+.clearCount {
+    color: crimson;
+    /* font-weight: 700; */
+}
+
+.counterText {
+    color: #f4f4f4;
+}
+
+.saveCountText1, .saveCountText, .counterText {
+    font-weight: 600;
+    font-size: var(--FS);
+    
+}
+
+
+.saveCountText {
+    width: 70%;
+}
